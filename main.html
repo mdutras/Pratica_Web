@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+</head>
+<body>
+    <div style="border: 1px solid black; margin-bottom: 50px;">
+        <h2 style="text-align: center;">Índice</h2>
+        <hr style="border:1px dashed black;">
+        <ol>
+            <li><a href="#um">Formatação de Texto</a></li>
+            <li><a href="#dois">Listas</a></li>
+            <li><a href="#tres">Formulário</a></li>
+            <li><a href="#quatro">Multimídia</a></li>
+        </ol>
+    </div>
+    
+
+    
+    <div id="um" style="border: 1px solid red; margin-bottom: 50px;">
+        <h2>Formatação de Texto</h2> 
+        <hr style="border:1px dashed red;">
+        <p>Mussum Ipsum, <strong>cacilds</strong> vidis litro abertis. </p>
+        <p>Viva <em>Forevis</em> aptent taciti sociosqu ad <ins>litora</ins> torquent.</p>
+        <p>Quem manda na minha <q>terra</q> sou euzis!</p>
+        <p>Cevadis im ampola pa arma uma <del>pindureta</del>.</p>
+        <p>Detraxit <small>consequat</small> et quo num <sup>tendi</sup> <sub>nada</sub>.</p>
+    </div>
+
+    <br>
+
+    <div id="dois" style="border: 1px solid blue; margin-bottom: 50px;">
+        <h2 style="text-align: center;">Listas</h2>
+        <hr style="border:1px dashed blue;">
+
+        <h3>Melhores feriados do ano</h3>
+        <ol>
+            <li>Dia da água</li>
+            <li>Natal</li>
+            <li>São João</li>
+            <li>Dia da árvore</li>
+            <li>Ano novo</li>
+        </ol>
+
+        <br>
+
+        <h3>Filmes que todo mundo deveria assistir</h3>
+        <ul>
+            <li>Hoje eu não quero voltar sozinho</li>
+            <li>Luca</li>
+            <li>Soul</li>
+            <li>Scooby Doo: Ilha dos Zumbis</li>
+            <li>Mulan</li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div id="tres" style="border: 1px solid green; margin-bottom: 50px;">
+        <h2>Formulário</h2>
+        <hr style="border:1px dashed green;">
+        <form>
+            <div>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label><br>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="color">Cor favorita:</label><br>
+                <input type="color" id="color" />
+            </div>
+            <div>
+                <label for="number">Idade:</label><br>
+                <input type="number" id="number" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label><br>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <br>
+    </div>
+
+    <br>
+
+    <div id="quatro" style="border: 1px solid magenta; margin-bottom: 50px;">
+        <h2>Multimídia</h2>
+        <hr style="border:1px dashed magenta;">
+
+        <h3>Imagem</h3>
+        <figure>
+            <img src="cover.jpg" alt="Dinossauro" height="400">
+            <figcaption>Dinossauro bonitinho do deno</figcaption>
+        </figure>
+
+        <h3>Aúdio</h3>
+        <audio controls>
+            <source src="anjo.mp3">
+        </audio>
+        <p>A voz de um anjo</p>
+
+        <h3>Vídeo</h3>
+        <video controls autoplay>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
